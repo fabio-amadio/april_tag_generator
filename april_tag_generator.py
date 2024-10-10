@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import numpy as np
-import svgwrite
-from svgwrite import cm
-from svglib.svglib import svg2rlg
-from reportlab.graphics import renderPDF
 from moms_apriltag import TagGenerator2
 from moms_apriltag.generator2 import tag_sizes_v2
+from reportlab.graphics import renderPDF
+from svglib.svglib import svg2rlg
+import svgwrite
+from svgwrite import cm
 
 
 def generate_fiducial(
